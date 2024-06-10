@@ -26,6 +26,7 @@ namespace FINAL_BLL.Wrapping.Exceptions
         {
             Data = obj;
             Success = true;
+            Errors = new List<string>(); 
 
         }
 
