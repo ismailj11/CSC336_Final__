@@ -17,11 +17,7 @@ namespace FINAL_BLL.Wrapping.Exceptions
 
 
         public string ReasonPhrase { get; set; }
-        public ApiResponse()
-        {
-            Success = true;
-            Errors = new List<string>();
-        }
+       
         public ApiResponse(T obj)
         {
             Data = obj;
