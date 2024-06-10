@@ -1,0 +1,6 @@
+@CSC336_Final___HostAddress = http://localhost:5083
+
+GET {{CSC336_Final___HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
